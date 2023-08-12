@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lato:wght@100;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    color: wheat;
+}
+
+nav ul {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 23px;
+    font-size: 23px;
+}
+
+nav ul a li {
+    color: white;
+    text-decoration: none;
+}
+
+.welcome {
+    font-size: 42px;
+    position: absolute;
+    left: 32%;
+}
+
+main {
+    background: url("https://media.istockphoto.com/id/1282393640/es/foto/fondo-abstracto-azul-oscuro-universo-espacial-cosmos-negro-oscuro-con-el-concepto-de-giro.jpg?s=170667a&w=0&k=20&c=xLoVsJatZYpbylVlHajiahto67n_Nz6icTaFhbOd4y4=");
+    height: 100vh;
+}
+
+.human {
+    position: absolute;
+    right: 5%;
+    height: 700px;
+    width: 700px;
+}
+
+#identity {
+    color: white;
+    position: absolute;
+    top: 20%;
+    left: 3%;
+    font-size: 42px;
+}
+
+#button1 {
+    background-color: black;
+    color: wheat;
+    position: absolute;
+    right: 18%;
+    top: 2%;
+    font-size: 25px;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+#button2 {
+    background-color: black;
+    color: wheat;
+    position: absolute;
+    right: 12.5%;
+    top: 2%;
+    font-size: 25px;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+#button3 {
+    background-color: black;
+    color: wheat;
+    position: absolute;
+    right: 5.5%;
+    top: 2%;
+    font-size: 25px;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+li:hover {
+    color: red;
+    cursor: pointer;
+    /* background-color: gray; */
+}
+
+.welcome:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.para:hover {
+    color: blue;
+}
+
+#button3:hover {
+    color: red;
+    border-color: blue;
+    cursor: pointer;
+}
+
+#button1:hover {
+    color: red;
+    border-color: blue;
+    cursor: pointer;
+}
+
+#button2:hover {
+    color: red;
+    border-color: blue;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1276px) and (min-width: 801px) {
+    .welcome {
+        font-size: 36px;
+        position: absolute;
+        top: 50%;
+        left: 25vw;
+    }
+
+    nav {
+        display: flex;
+        align-items: center;
+        /* background-color: blue; */
+        color: wheat;
+        height: 100px;
+    }
+
+    #button1 {
+        right: 40%;
+        top: 1%;
+        font-size: 25px;
+    }
+
+    #button2 {
+        right: 23%;
+        top: 1%;
+        font-size: 25px;
+    }
+
+    #button3 {
+        right: 5%;
+        top: 1%;
+        font-size: 25px;
+    }
+
+    .human {
+        width: 500px;
+        height: 500px;
+        left: 15%;
+        top: 60%;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+    nav ul li {
+        margin-top: 1px;
+        margin-left: 4px;
+        font-size: 18px;
+    }
+
+    .welcome {
+        font-size: 23px;
+        position: absolute;
+        top: 50%;
+        left: 9%;
+    }
+
+    nav {
+        display: flex;
+        align-items: center;
+        /* background-color: blue; */
+        color: wheat;
+        height: 70px;
+    }
+
+    #button1 {
+        right: 40%;
+        top: 1%;
+        font-size: 15px;
+    }
+
+    #button2 {
+        right: 25%;
+        top: 1%;
+        font-size: 15px;
+    }
+
+    #button3 {
+        right: 5%;
+        top: 1%;
+        font-size: 15px;
+    }
+
+    #identity {
+        top: 120px;
+        width: 90vw;
+        left: 2vw;
+        height: 84vh;
+        font-size: 18.5px;
+    }
+
+    .human {
+        width: 380px;
+        height: 380px;
+        left: -5%;
+        top: 50%;
+    }
+}

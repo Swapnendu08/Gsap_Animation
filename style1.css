@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lato:wght@100;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    /* background-color: black; */
+    color: wheat;
+}
+
+nav ul {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 23px;
+    font-size: 23px;
+}
+
+nav ul a li {
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+
+li:hover {
+    color: red;
+    cursor: pointer;
+    /* background-color: gray; */
+}
+
+#welcome:hover {
+    color: red;
+    cursor: pointer;
+}
+
+#welcome {
+    font-size: 42px;
+    position: absolute;
+    left: 32%;
+}
+
+main {
+    background: url("https://media.istockphoto.com/id/1282393640/es/foto/fondo-abstracto-azul-oscuro-universo-espacial-cosmos-negro-oscuro-con-el-concepto-de-giro.jpg?s=170667a&w=0&k=20&c=xLoVsJatZYpbylVlHajiahto67n_Nz6icTaFhbOd4y4=");
+    height: 100vh;
+}
+
+.space-cp {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    left: -5%;
+    /* background-color: blueviolet; */
+}
+
+.space {
+    /* background-color: brown; */
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    left: 70%;
+    top: 10%;
+}
+
+.info {
+    /* background-color: brown; */
+    position: absolute;
+    top: 80px;
+    width: 55vw;
+    left: 25vw;
+    height: 84vh;
+    color: white;
+    font-size: 21.5px;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+
+.para:hover {
+    color: blue;
+}
+
+#button1 {
+    background-color: black;
+    color: wheat;
+    position: absolute;
+    right: 18%;
+    top: 2%;
+    font-size: 25px;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+#button2 {
+    background-color: black;
+    color: wheat;
+    position: absolute;
+    right: 12.5%;
+    top: 2%;
+    font-size: 25px;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+#button3 {
+    background-color: black;
+    color: wheat;
+    position: absolute;
+    right: 5.5%;
+    top: 2%;
+    font-size: 25px;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+#button3:hover {
+    color: red;
+    border-color: blue;
+    cursor: pointer;
+}
+
+#button1:hover {
+    color: red;
+    border-color: blue;
+    cursor: pointer;
+}
+
+#button2:hover {
+    color: red;
+    border-color: blue;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1276px) and (min-width: 801px) {
+    #welcome {
+        font-size: 36px;
+        position: absolute;
+        top: 50%;
+        left: 25vw;
+    }
+
+    nav {
+        display: flex;
+        align-items: center;
+        /* background-color: blue; */
+        color: wheat;
+        height: 100px;
+    }
+
+    #button1 {
+        right: 40%;
+        top: 1%;
+        font-size: 25px;
+    }
+
+    #button2 {
+        right: 23%;
+        top: 1%;
+        font-size: 25px;
+    }
+
+    #button3 {
+        right: 5%;
+        top: 1%;
+        font-size: 25px;
+    }
+
+    .space-cp {
+        /* background-color: blueviolet; */
+        width: 350px;
+        height: 350px;
+        position: absolute;
+        left: -5%;
+        top: 7%;
+    }
+
+    .space {
+        width: 450px;
+        height: 450px;
+        left: -12%;
+        top: 30%;
+    }
+
+    .info {
+        top: 11vh;
+        width: 60vw;
+        left: 35vw;
+        height: 84vh;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    nav ul li {
+        margin-top: 1px;
+        margin-left: 4px;
+        font-size: 18px;
+    }
+
+    #welcome {
+        font-size: 23px;
+        position: absolute;
+        top: 50%;
+        left: 9%;
+    }
+
+    nav {
+        display: flex;
+        align-items: center;
+        /* background-color: blue; */
+        color: wheat;
+        height: 70px;
+    }
+
+    #button1 {
+        right: 40%;
+        top: 1%;
+        font-size: 15px;
+    }
+
+    #button2 {
+        right: 25%;
+        top: 1%;
+        font-size: 15px;
+    }
+
+    #button3 {
+        right: 5%;
+        top: 1%;
+        font-size: 15px;
+    }
+
+    .space-cp {
+        /* background-color: blueviolet; */
+        width: 220px;
+        height: 220px;
+        position: absolute;
+        left: -15%;
+        top: 9%;
+    }
+
+    .space {
+        width: 280px;
+        height: 280px;
+        left: -17%;
+        top: 30%;
+    }
+
+    .info {
+        top: 80px;
+        width: 55vw;
+        left: 42vw;
+        height: 84vh;
+        font-size: 11px;
+    }
+
+}
